@@ -1,0 +1,21 @@
+{
+  "name": "Cyber Rescue Agent ID",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.live-server"
+      ],
+      "settings": {
+        "livePreview.autoRefreshPreview": "On All Save",
+        "livePreview.defaultPreviewPath": "index.html",
+        "editor.wordWrap": "on",
+        "editor.fontSize": 15,
+        "editor.formatOnSave": true
+      }
+    }
+  },
+
+  "postAttachCommand": "code index.html"
+}
