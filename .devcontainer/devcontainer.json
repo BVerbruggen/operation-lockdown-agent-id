@@ -17,17 +17,19 @@
         "editor.formatOnSave": true,
         "editor.minimap.enabled": false,
 
-        "workbench.activityBar.location": "hidden",
-        "workbench.statusBar.visible": false,
+        "workbench.activityBar.location": "top",
+        "workbench.statusBar.visible": true,
         "workbench.startupEditor": "none",
         "workbench.panel.opensMaximized": "never",
         "breadcrumbs.enabled": false,
 
         "github.copilot.editor.enableAutoCompletions": false,
-        "chat.commandCenter.enabled": false
+        "chat.commandCenter.enabled": false,
+
+        "workbench.secondarySideBar.visible": false
       }
     }
   },
 
-  "postAttachCommand": "code index.html"
+  "postAttachCommand": "code index.html && code --command workbench.action.closeSidebar && code --command workbench.action.closePanel && code --command workbench.action.closeAuxiliaryBar"
 }
