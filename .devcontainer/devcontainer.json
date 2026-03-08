@@ -1,5 +1,5 @@
 {
-  "name": "Cyber Rescue Agent ID",
+  "name": "Cyber Rescue Agent",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
 
   "customizations": {
@@ -10,9 +10,21 @@
       "settings": {
         "livePreview.autoRefreshPreview": "On All Save",
         "livePreview.defaultPreviewPath": "index.html",
+        "livePreview.openPreviewTarget": "External Browser",
+
         "editor.wordWrap": "on",
         "editor.fontSize": 15,
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
+        "editor.minimap.enabled": false,
+
+        "workbench.activityBar.location": "hidden",
+        "workbench.statusBar.visible": false,
+        "workbench.startupEditor": "none",
+        "workbench.panel.opensMaximized": "never",
+        "breadcrumbs.enabled": false,
+
+        "github.copilot.editor.enableAutoCompletions": false,
+        "chat.commandCenter.enabled": false
       }
     }
   },
