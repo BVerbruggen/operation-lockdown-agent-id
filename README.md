@@ -32,8 +32,17 @@
 Je hebt nu je eigen kopie van het project!
 
 ---
+## Stap 3 — Activeer GitHub Pages
 
-## Stap 3 — Open in Codespaces
+1. Ga naar je repository op **[github.com](https://github.com)**
+2. Klik op **Settings** (tandwieltje, rechtsboven)
+3. Klik in het linkermenu op **Pages**
+4. Onder **Source**: kies **"GitHub Actions"**
+5. Klik **Save**
+
+---
+
+## Stap 4 — Open in Codespaces
 
 1. Klik op de groene **"Code"** knop
 2. Klik op het tabblad **"Codespaces"**
@@ -52,7 +61,7 @@ Je hebt nu je eigen kopie van het project!
 
 ---
 
-## Stap 4 — Pas je kaart aan
+## Stap 5 — Pas je kaart aan
 
 Zoek in `index.html` naar de **TODO**-commentaren en verander ze één voor één.  
 Sla op na elke wijziging en bekijk het resultaat in de preview!
@@ -84,15 +93,7 @@ Of kies zelf een kleur op **[colorpicker.me](https://colorpicker.me)**!
 
 ---
 
-## Stap 5 — Activeer GitHub Pages
 
-1. Ga naar je repository op **[github.com](https://github.com)**
-2. Klik op **Settings** (tandwieltje, rechtsboven)
-3. Klik in het linkermenu op **Pages**
-4. Onder **Source**: kies **"GitHub Actions"**
-5. Klik **Save**
-
----
 
 ## Stap 6 — Sla je werk op in GitHub
 
@@ -121,6 +122,8 @@ Je URL is altijd:
 https://JOUWGEBRUIKERSNAAM.github.io/agent-id
 ```
 
+**Stuur deze link naar je ouders!** 📱
+
 ---
 
 ## 📱 Op je smartphone
@@ -134,7 +137,7 @@ Dubbeltik op de kaart om de gyroscoop opnieuw te kalibreren.
 ## 🔄 Wijzigingen doorvoeren na de eerste deploy
 
 Elke keer dat je daarna iets aanpast:
-1. Commit & Push (zie Stap 5)
+1. Commit & Push (zie Stap 6)
 2. GitHub deployt automatisch — na ~1 minuut is je update live
 
 ---
