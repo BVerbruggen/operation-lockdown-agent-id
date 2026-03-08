@@ -1,70 +1,71 @@
 # 🛡️ Cyber Rescue Team — Agent ID
 
 > **Scenario:** Vannacht is het IT-systeem van de school gehackt door **The Null Syndicate**.  
-> Jij bent gerekruteerd als lid van het **Cyber Rescue Team**.  
-> Maak je persoonlijke Agent ID-kaart en deploy die als echte website!
+> Ze hebben de digitale schoolborden vergrendeld, het wifi platgelegd en dreigen om 16:00 alle  
+> rapportcijfers te wissen. Jij bent gerekruteerd als lid van het **Cyber Rescue Team**.
+>
+> Maak je persoonlijke Agent ID-kaart en deploy die als **echte website op het internet!**
 
 ---
 
-## 🚀 Stap 1 — Maak je eigen kopie
+## Stap 1 — Maak een GitHub account
 
-Klik rechtsboven op de groene knop **"Use this template"** → **"Create a new repository"**
+> ⏩ Heb je al een account? Sla deze stap over.
 
-- **Repository name:** `agent-id`
-- Zet op **Public**
-- Klik **Create repository**
-
----
-
-## 💻 Stap 2 — Open in Codespaces
-
-Klik op de groene **"Code"** knop → tabblad **"Codespaces"** → **"Create codespace on main"**
-
-⏳ Wacht even terwijl de omgeving opstart (~1 minuut).
-
-Zodra VS Code opent:
-1. Klik links op `index.html` om het bestand te openen
-2. Klik rechtsboven op het **"Show Preview"** icoontje (of druk `Ctrl+Shift+P` → typ *"Live Preview: Start Server"*)
-3. Je ziet nu je kaart **live** naast de code — elke wijziging verschijnt meteen!
+1. Ga naar **[github.com](https://github.com)** en klik op **Sign up**
+2. Vul je e-mailadres in en kies een gebruikersnaam
+   - 💡 Tip: gebruik je hacker-alias als gebruikersnaam!
+3. Verifieer je e-mailadres via de mail die je ontvangt
+4. Kies het **Free** plan
 
 ---
 
-## ✏️ Stap 3 — Pas je kaart aan
+## Stap 2 — Maak je eigen kopie van dit project
 
-Zoek in de code naar de `TODO`-commentaren en verander ze:
+1. Klik rechtsboven op de groene knop **"Use this template"**
+2. Kies **"Create a new repository"**
+3. Vul in:
+   - **Repository name:** `agent-id`
+   - Zet op **Public**
+4. Klik **Create repository**
 
-| # | Wat? | Hoe moeilijk? |
-|---|------|--------------|
-| TODO #1 | Kies je **accentkleur** — verander `#00ff88` naar jouw kleur | ⭐ |
-| TODO #2 | Kies je **hacker-alias** — wees creatief! | ⭐ |
-| TODO #3 | Stel je **skill bars** in op jouw niveau (0%–100%) | ⭐ |
-| TODO #4 | Schrijf je **boodschap** aan je ouders | ⭐ |
-| TODO #5 | Kies je **chiptune** — `'rescue'`, `'infiltrate'` of `'boss'` | ⭐⭐ |
-
-> 💡 **Tip:** Gebruik `Ctrl+S` om op te slaan — de preview ververst automatisch!
+Je hebt nu je eigen kopie van het project!
 
 ---
 
-## 🌍 Stap 4 — Deploy naar GitHub Pages
+## Stap 3 — Open in Codespaces
 
-Zo zet je je kaart live op het internet:
+1. Klik op de groene **"Code"** knop
+2. Klik op het tabblad **"Codespaces"**
+3. Klik op **"Create codespace on main"**
 
-1. Ga terug naar je repository op **github.com**
-2. Klik op **Settings** (tandwieltje)
-3. Klik in het linkermenu op **Pages**
-4. Onder **Branch**: kies `main` → klik **Save**
-5. Wacht ~2 minuten...
+⏳ Wacht even terwijl de omgeving opstart (~1 minuut). Er opent een versie van VS Code in je browser.
 
-✅ Je kaart is nu live op:
-```
-https://JOUWGEBRUIKERSNAAM.github.io/agent-id
-```
+**Start de live preview:**
+1. Klik in de linker bestandslijst op `index.html`
+2. Klik rechtsboven op het **🔍 Show Preview** icoontje
+3. Je ziet nu je kaart **live** naast de code — elke wijziging verschijnt meteen zodra je opslaat!
 
-Stuur deze link naar je ouders! 📱
+> 💡 Opslaan doe je met **Ctrl+S** (Windows) of **Cmd+S** (Mac)
 
 ---
 
-## 🎨 Handige kleurcodes
+## Stap 4 — Pas je kaart aan
+
+Zoek in `index.html` naar de **TODO**-commentaren en verander ze één voor één.  
+Sla op na elke wijziging en bekijk het resultaat in de preview!
+
+| # | Wat aanpassen | Moeilijkheid |
+|---|--------------|-------------|
+| **TODO #1** | **Accentkleur** — kies jouw kleur met een kleurcode | ⭐ |
+| **TODO #2** | **Avatar** — kies een emoji of gebruik een echte foto | ⭐ |
+| **TODO #3** | **Hacker-alias** — jouw geheime naam in het team | ⭐ |
+| **TODO #4** | **Stats** — rang, team en status naar keuze | ⭐ |
+| **TODO #5** | **Skill bars** — hoe goed ben jij hierin? (0–100%) | ⭐ |
+| **TODO #6** | **Boodschap** — wat vertel jij je ouders over vandaag? | ⭐ |
+| **TODO #7** | **Muziek** — kies je chiptune track *(bonus)* | ⭐⭐ |
+
+### 🎨 Handige kleurcodes voor TODO #1
 
 | Kleur | Code |
 |-------|------|
@@ -74,12 +75,67 @@ Stuur deze link naar je ouders! 📱
 | 🩷 Roze | `#ff006e` |
 | 🟡 Geel | `#ffbe0b` |
 | 🟠 Oranje | `#ff6b35` |
+| 🔴 Rood | `#ff2244` |
+| ⚪ Wit | `#e8f0ff` |
+
+Of kies zelf een kleur op **[colorpicker.me](https://colorpicker.me)**!
 
 ---
 
-## 🔄 Recalibreer de gyroscoop
+## Stap 5 — Sla je werk op in GitHub
 
-Op je smartphone: **dubbeltik** op de kaart om de gyroscoop opnieuw te kalibreren als de beweging niet goed voelt.
+Als je tevreden bent met je kaart:
+
+1. Klik links in VS Code op het **Source Control** icoontje (het icoontje met de vertakkingen)
+2. Klik op het **+** icoontje naast `index.html` om je wijzigingen te stagen
+3. Typ een bericht in het tekstveld, bijvoorbeeld: `mijn agent ID kaart`
+4. Klik op **Commit**
+5. Klik op **Sync Changes** (of **Push**)
+
+---
+
+## Stap 6 — Activeer GitHub Pages
+
+1. Ga naar je repository op **[github.com](https://github.com)**
+2. Klik op **Settings** (tandwieltje, rechtsboven)
+3. Klik in het linkermenu op **Pages**
+4. Onder **Source**: kies **"GitHub Actions"**
+5. Klik **Save**
+
+Klaar! De eerste deploy start nu automatisch.
+
+---
+
+## Stap 7 — Bekijk je live kaart
+
+1. Ga naar de **Actions** tab in je repository
+2. Wacht tot je een groen ✅ ziet naast je laatste workflow
+3. Ga daarna naar **Settings** → **Pages**
+4. Bovenaan zie je een blauwe banner: **"Your site is live at..."** met een **Visit site** knop
+5. Klik op **Visit site** — je kaart opent in een nieuw tabblad!
+
+Je URL is altijd:
+```
+https://JOUWGEBRUIKERSNAAM.github.io/agent-id
+```
+
+**Stuur deze link naar je ouders!** 📱
+
+---
+
+## 📱 Op je smartphone
+
+Open de link op je telefoon. Tik op **"📱 Activeer gyroscoop"** en kantel je telefoon — de kaart beweegt mee in 3D!
+
+Dubbeltik op de kaart om de gyroscoop opnieuw te kalibreren.
+
+---
+
+## 🔄 Wijzigingen doorvoeren na de eerste deploy
+
+Elke keer dat je daarna iets aanpast:
+1. Commit & Push (zie Stap 5)
+2. GitHub deployt automatisch — na ~1 minuut is je update live
 
 ---
 
