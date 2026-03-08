@@ -7,9 +7,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@700;900&family=Exo+2:wght@300;400;600&display=swap" rel="stylesheet"/>
   <style>
     /* ============================================
-       🎨 TODO #1 — KIES JE KLEUR
+       TODO #1 — KIES JE KLEUR
        Verander de kleur hieronder naar jouw favoriete kleur!
-       Voorbeelden: #00ff88 (groen), #ff006e (roze), #00cfff (blauw), #ffbe0b (geel)
+       Kies een code uit de README, of verzin er zelf een op:
+       https://colorpicker.me
     ============================================ */
     :root {
       --accent: #00ff88; /* ← VERANDER DEZE KLEUR */
@@ -206,10 +207,7 @@
 
     .agent-info { flex: 1; }
 
-    /* ============================================
-       🔤 TODO #2 — JE NAAM & ALIAS
-       Verander de tekst in de HTML hieronder!
-    ============================================ */
+
     .agent-name {
       font-family: 'Orbitron', sans-serif;
       font-size: 1.3rem;
@@ -298,10 +296,7 @@
       to { transform: scaleX(1); }
     }
 
-    /* ============================================
-       ⭐ TODO #3 — JE SKILLS
-       Verander de width% van de skill bars (0% tot 100%)
-    ============================================ */
+
 
     /* === MISSION LOG === */
     .mission-section {
@@ -486,22 +481,40 @@
         </div>
       </div>
 
-      <!-- AVATAR + INFO — depth layer 2 (pops forward most) -->
+      <!-- AVATAR + INFO -->
       <div class="avatar-zone" data-depth="1.0">
-        <div class="avatar" data-depth="0.0">🧑‍💻</div>
+
         <!-- ============================================
-             TODO #2 — Kies je hacker-alias!
-             Dit is de naam waarmee jij bekend staat in het team.
-             Wees creatief: ghost_zero, 0xSara, null_pointer, ...
+             TODO #2 — KIES JE AVATAR
+             Verander het emoji hieronder naar jouw favoriet!
+             Voorbeelden: 🦊 🐱 👾 🤖 🦸 🐺 🎮 💀 🧠 🐉 🦄
         ============================================ -->
+        <div class="avatar" data-depth="0.0">🧑‍💻</div>
+
         <div class="agent-info">
+
+          <!-- ============================================
+               TODO #3 — KIES JE HACKER-ALIAS
+               Dit is de naam waarmee jij bekend staat in het team.
+               Wees creatief: ghost_zero, 0xSara, null_pointer, ByteWulf ...
+          ============================================ -->
           <div class="agent-alias" style="font-size:1.1rem; margin-bottom:0.5rem;">jouw_alias_hier</div>
+
+          <!-- ============================================
+               TODO #4 — PAS JE STATS AAN
+               Verander de waarden naar iets dat bij jou past!
+               STATUS: ACTIEF / OFFLINE / UNDERCOVER
+               RANG:   ROOKIE / AGENT / SPECIALIST / ELITE
+               TEAM:   ALPHA / BRAVO / DELTA / SHADOW
+               THREAT: LOW / MEDIUM / HIGH / NULLIFIED
+          ============================================ -->
           <div class="stats">
             <div class="stat">STATUS: <span>ACTIEF</span></div>
             <div class="stat">RANG: <span>ROOKIE</span></div>
             <div class="stat">TEAM: <span>ALPHA</span></div>
             <div class="stat">THREAT: <span>NULLIFIED</span></div>
           </div>
+
         </div>
       </div>
 
@@ -510,8 +523,9 @@
         <div class="section-label">// Skill Matrix</div>
 
         <!-- ============================================
-             TODO #3 — Zet je eigen percentages!
-             Hoe goed ben je hierin? Wees eerlijk 😄
+             TODO #5 — STEL JE SKILL BARS IN
+             Verander de width% naar jouw niveau (0% = niets, 100% = expert)
+             Je mag ook de namen van de skills aanpassen!
         ============================================ -->
         <div class="skill-row">
           <div class="skill-name">Probleemoplossen</div>
@@ -543,8 +557,9 @@
       <div class="mission-section" data-depth="1.2">
         <div class="section-label">// Mission Log</div>
         <!-- ============================================
-             TODO #5 — Schrijf een korte boodschap!
+             TODO #6 — SCHRIJF JE BOODSCHAP
              Wat wil jij je ouders vertellen over vandaag?
+             Verander de tekst hieronder!
         ============================================ -->
         <div class="mission-text">
           <span class="highlight">[RAPPORT]</span> Vandaag heb ik de aanval van
@@ -766,8 +781,11 @@
 
     // === CHIPTUNE SEQUENCER ===
     // ============================================
-    // TODO #5 (BONUS) — Kies je track!
-    // Verander chosenTrack naar: 'rescue', 'infiltrate' of 'boss'
+    // TODO #7 (BONUS) — KIES JE MUZIEK
+    // Verander chosenTrack naar één van deze opties:
+    //   'rescue'     — opzwepend en heroïsch (standaard)
+    //   'infiltrate' — sluipend en mysterieus
+    //   'boss'       — agressief en snel
     // ============================================
 
     const NOTE = {
