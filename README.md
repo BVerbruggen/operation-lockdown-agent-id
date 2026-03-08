@@ -41,12 +41,14 @@ Je hebt nu je eigen kopie van het project!
 
 ⏳ Wacht even terwijl de omgeving opstart (~1 minuut). Er opent een versie van VS Code in je browser.
 
-**Start de live preview:**
+**Open het bestand en start de live preview:**
 1. Klik in de linker bestandslijst op `index.html`
 2. Klik rechtsboven op het **🔍 Show Preview** icoontje
-3. Je ziet nu je kaart **live** naast de code — elke wijziging verschijnt meteen zodra je opslaat!
+3. Er opent een **apart browservenster** met je kaart — zet dit venster naast je VS Code scherm
 
-> 💡 Opslaan doe je met **Ctrl+S** (Windows) of **Cmd+S** (Mac)
+> 💡 Elke keer dat je **Ctrl+S** (Windows) of **Cmd+S** (Mac) drukt, ververst de preview automatisch!
+
+> 📱 **Op een iPad:** zet de twee vensters naast elkaar via de Split View knop (rechtsboven in Safari)
 
 ---
 
@@ -82,7 +84,17 @@ Of kies zelf een kleur op **[colorpicker.me](https://colorpicker.me)**!
 
 ---
 
-## Stap 5 — Sla je werk op in GitHub
+## Stap 5 — Activeer GitHub Pages
+
+1. Ga naar je repository op **[github.com](https://github.com)**
+2. Klik op **Settings** (tandwieltje, rechtsboven)
+3. Klik in het linkermenu op **Pages**
+4. Onder **Source**: kies **"GitHub Actions"**
+5. Klik **Save**
+
+---
+
+## Stap 6 — Sla je werk op in GitHub
 
 Als je tevreden bent met je kaart:
 
@@ -92,17 +104,7 @@ Als je tevreden bent met je kaart:
 4. Klik op **Commit**
 5. Klik op **Sync Changes** (of **Push**)
 
----
-
-## Stap 6 — Activeer GitHub Pages
-
-1. Ga naar je repository op **[github.com](https://github.com)**
-2. Klik op **Settings** (tandwieltje, rechtsboven)
-3. Klik in het linkermenu op **Pages**
-4. Onder **Source**: kies **"GitHub Actions"**
-5. Klik **Save**
-
-Klaar! De eerste deploy start nu automatisch.
+Dit triggert automatisch de deploy naar GitHub Pages!
 
 ---
 
@@ -118,8 +120,6 @@ Je URL is altijd:
 ```
 https://JOUWGEBRUIKERSNAAM.github.io/agent-id
 ```
-
-**Stuur deze link naar je ouders!** 📱
 
 ---
 
